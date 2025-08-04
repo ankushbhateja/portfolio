@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankush Bhateja - Portfolio</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+    body {
+      background: #f3f0ff;
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #0077b6;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: #00b4d8;
+      margin-top: 6px;
+    }
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      flex: 1 1 250px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+ transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: #0077b6;
+  color: #ffffff;
+
+    }
+    .card h3 {
+      color: #0077b6;
+      margin-bottom: 0.5rem;
+    }
+.card:hover h3,
+.card:hover p {
+  color: #ffffff;
+}
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    footer {
+      background: #0077b6;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>Ankush Bhateja</h1>
+    <p>Flutter Developer | UI/UX Designer | Video Editor</p>
+  </header>
+
+  <section data-aos="fade-up">
+    <div class="section-title">About Me</div>
+    <p>
+      I’m a Flutter developer with over 2 years of experience — both in office roles and freelance projects. 
+      From building smooth mobile/web apps using Firebase, GetX, and BLoC (basics), to designing clean UI/UX and editing videos, I bring a complete and flexible skill set to every project.
+    </p>
+  </section>
+
+  <section data-aos="fade-up">
+    <div class="section-title">Skills</div>
+    <div class="skills">
+      <div class="card" data-aos="zoom-in">Flutter & Dart</div>
+      <div class="card" data-aos="zoom-in">Firebase Integration</div>
+      <div class="card" data-aos="zoom-in">GetX & BLoC (Basic)</div>
+      <div class="card" data-aos="zoom-in">UI/UX Design (Figma, Adobe XD)</div>
+      <div class="card" data-aos="zoom-in">Basic Video Editing</div>
+      <div class="card" data-aos="zoom-in">Team Management</div>
+    </div>
+  </section>
+
+  <section data-aos="fade-up">
+    <div class="section-title">Projects</div>
+    <div class="projects">
+      <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <h3>Grocery App</h3>
+        <p>Cross-platform grocery shopping app with animations, Razorpay, and Firebase backend.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio built using HTML, CSS, and JavaScript to showcase my skills.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="300">
+        <h3>Freelance Client Projects</h3>
+        <p>Completed several apps for small businesses, focused on UI, state management, and performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-aos="fade-up">
+    <div class="section-title">Contact</div>
+    <p>📧 Email: <a href="mailto:ankush@example.com">ankush@example.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/ankush" target="_blank">linkedin.com/in/ankush</a></p>
+    <p>🌐 GitHub: <a href="https://github.com/ankush" target="_blank">github.com/ankush</a></p>
+  </section>
+
+  <footer data-aos="fade-up">
+    &copy; 2025 Ankush Bhateja. All rights reserved.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false	,
+    });
+  </script>
+</body>
+</html>
