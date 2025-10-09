@@ -42,21 +42,13 @@ My job is to build your website so that it is functional and user-friendly but a
 What i'm doing
 
 alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
-
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
-
-alt = mobile app icon
 Mobile apps
 Professional development of applications for iOS and Android.
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
 
+alt = mobile app icon
+UI & UX design
+The most modern and high-quality design made at a professional level.
 
 ## testimonials
 
@@ -107,17 +99,13 @@ Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Jr. Flutter Developer (Flutter Developer)
+KeasBrain Technologies Private Limited
+Oct 2024 — Present
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Internship (Flutter Developer)
+KeasBrain Technologies Private Limited
+May 2023 — Oct 2024
 
 My skills
 
