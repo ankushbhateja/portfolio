@@ -2,8 +2,8 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Ankush Bhateja
+Ankush Bhateja
 App Developer || UI&UX Designer
 
 Show Contacts
