@@ -4,21 +4,21 @@ vCard - Personal Portfolio
 
 alt = Richard hanrick
 Richard hanrick
-Web developer
+App Developer || UI&UX Designer
 
 Show Contacts
 
 Email
-richard@example.com
+iankushbhateja@example.com
 
 Phone
-+1 (213) 352-2795
++91 9649134510
 
 Birthday
-June 23, 1982
+Dec 11, 2001
 
 Location
-Sacramento, California, USA
+Jaipur, Rajasthan, India
 
 # navbar
 
